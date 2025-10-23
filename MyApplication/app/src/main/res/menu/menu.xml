@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/avatar"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_clock"
+        android:icon="@drawable/avatar"
+        android:title="Clock" />
+
+    <item
+        android:id="@+id/navigation_heart"
+        android:icon="@drawable/avatar"
+        android:title="Heart" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/avatar"
+        android:title="Profile" />
+
+</menu>

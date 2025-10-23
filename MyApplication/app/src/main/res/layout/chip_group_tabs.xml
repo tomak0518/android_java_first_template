@@ -1,0 +1,29 @@
+<!-- res/layout/chip_group_tabs.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginBottom="16dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/chipMostViewed"
+        style="@style/ChipStyle"
+        android:background="@drawable/chip_selected"
+        android:text="Most Viewed"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/chipNearby"
+        style="@style/ChipStyle"
+        android:background="@drawable/chip_unselected"
+        android:text="Nearby"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/chipLatest"
+        style="@style/ChipStyle"
+        android:background="@drawable/chip_unselected"
+        android:text="Latest"
+        android:textColor="@color/black" />
+</LinearLayout>
